@@ -709,6 +709,12 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  height: 295px;
+  width: 350px;
+}
+
+button:hover {
+  background-color: gainsboro;
 }
 
 .service-box:hover .ico-circle {
@@ -721,6 +727,10 @@ a:hover {
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
+}
+
+.lead {
+  font-family: "Times New Roman";
 }
 
 .service-box .ico-circle {
