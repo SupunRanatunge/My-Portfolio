@@ -733,10 +733,58 @@ button:hover {
   font-family: "Times New Roman";
 }
 
+ul.a li{
+  padding: 15px;
+  font-size: 20px;
+}
+
+#gallery {
+  padding: 30px;
+}
+
+.gallery {
+  text-align: center;
+  font-family: Arial;
+}
+
+.gallery_img {
+  width: 110%;
+  padding: 5px 0px;
+  height: 210px;
+}
+
+.gallery_img:hover {
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
 .service-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
 }
+
+/*.service-ico {*/
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*!*border-bottom: 1px dotted black;*!*/
+/*}*/
+
+/*.service-ico .tooltip {*/
+  /*visibility: hidden;*/
+  /*width: 120px;*/
+  /*background-color: black;*/
+  /*color: #fff;*/
+  /*text-align: center;*/
+  /*border-radius: 6px;*/
+  /*padding: 5px 0;*/
+  /*position: absolute;*/
+  /*z-index: 1;*/
+/*}*/
+
+/*.service-ico:hover .tooltip {*/
+  /*visibility: visible;*/
+/*}*/
 
 .service-box .s-title {
   font-size: 1.4rem;
